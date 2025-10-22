@@ -1,23 +1,22 @@
 import { ITestimonial } from "@/types";
-import { siteDetails } from "./siteDetails";
 
 export const testimonials: ITestimonial[] = [
     {
-        name: 'John Smith',
-        role: 'CEO at Company',
-        message: `${siteDetails.siteName}'s AI-driven insights have transformed how we approach financial planning for our clients. It's an invaluable resource in the modern financial landscape.`,
+        name: 'Vinos de Madrid',
+        role: 'Campaña y posicionamiento',
+        message: 'Lanzamiento de campaña y posicionamiento en medios convencionales para Vinos de Madrid. Producción y postproducción de contenido corporativo en el sector de eventos.',
         avatar: '/images/testimonial-1.webp',
     },
     {
-        name: 'Jane Doe',
-        role: 'CTO at Startup',
-        message: `As a CTO, I'm impressed by ${siteDetails.siteName}'s robust security measures and seamless integrations. It's rare to find an app that balances user-friendliness with such advanced technology.`,
+        name: 'Sanvin Shoes',
+        role: 'Campaña otoño',
+        message: 'Producción audiovisual de la campaña de otoño y fotografías de producto.',
         avatar: '/images/testimonial-2.webp',
     },
     {
-        name: 'Emily Johnson',
-        role: 'Product Manager',
-        message: `${siteDetails.siteName} is revolutionizing personal finance management. Its intuitive design and powerful features make it an indispensable tool for anyone serious about financial growth.`,
+        name: 'Brand Content',
+        role: 'Producción editorial',
+        message: 'Hemos elaborado contenido para distintas marcas y grupos empresariales. Acceso a banco de imágenes con 5M+ fotos y 9k+ horas de vídeo.',
         avatar: '/images/testimonial-3.webp',
     },
 ];

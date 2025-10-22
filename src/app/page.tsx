@@ -13,22 +13,23 @@ const HomePage: React.FC = () => {
   return (
     <>
       <Hero />
-      <Logos />
+      {/* Ocultamos logos por ahora si no corresponden */}
+      {/* <Logos /> */}
       <Container>
         <Benefits />
 
         <Section
           id="pricing"
-          title="Pricing"
-          description="Simple, transparent pricing. No surprises."
+          title="Nuestro Proceso de Trabajo"
+          description="Producción Técnica, Diseño Conceptual, Postproducción y Cobertura mediática."
         >
           <Pricing />
         </Section>
 
         <Section
           id="testimonials"
-          title="What Our Clients Say"
-          description="Hear from those who have partnered with us."
+          title="Casos de Éxito Destacados"
+          description="Proyectos y colaboraciones que amplifican marcas y resultados."
         >
           <Testimonials />
         </Section>
@@ -38,6 +39,9 @@ const HomePage: React.FC = () => {
         <Stats />
         
         <CTA />
+
+        {/* Ancla de destino para CTA */}
+        <div id="contacto" className="sr-only" />
       </Container>
     </>
   );

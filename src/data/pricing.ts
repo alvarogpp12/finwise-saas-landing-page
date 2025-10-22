@@ -2,36 +2,30 @@ import { IPricing } from "@/types";
 
 export const tiers: IPricing[] = [
     {
-        name: 'Starter',
-        price: 29,
+        name: 'Producción Técnica',
+        price: 'Proyecto',
         features: [
-            'Basic cloud integration',
-            'Up to 5 team members',
-            '20GB storage',
-            'Email support',
+            'Briefing Inicial',
+            'Coordinación de equipos humanos y técnicos',
+            'Plan de producción alineado a objetivos',
         ],
     },
     {
-        name: 'Pro',
-        price: 99,
+        name: 'Diseño Conceptual',
+        price: 'Proyecto',
         features: [
-            'Advanced cloud integration',
-            'Up to 20 team members',
-            '100GB storage',
-            'Priority email & phone support',
-            'Advanced analytics',
+            'Idea creativa y guion técnico',
+            'Storyboard visual',
+            'Planificación de recursos y tiempos',
         ],
     },
     {
-        name: 'Enterprise',
-        price: 'Custom',
+        name: 'Postproducción y Cobertura',
+        price: 'Proyecto',
         features: [
-            'Full cloud integration',
-            'Unlimited team members',
-            'Unlimited storage',
-            '24/7 dedicated support',
-            'Custom solutions',
-            'On-site training',
+            'Edición, color y audio profesional',
+            'Entregas en formatos requeridos',
+            'Cobertura mediática con GTRES',
         ],
     },
 ]

@@ -7,31 +7,28 @@ export const footerDetails: {
     telephone: string;
     socials: ISocials;
 } = {
-    subheading: "Empowering businesses with cutting-edge financial technology solutions.",
+    subheading: "¿Listo para crear contenido inolvidable?",
     quickLinks: [
         {
-            text: "Features",
-            url: "#features"
+            text: "Inicio",
+            url: "#hero"
         },
         {
-            text: "Pricing",
+            text: "Servicios",
             url: "#pricing"
         },
         {
-            text: "Testimonials",
+            text: "Casos de Éxito",
             url: "#testimonials"
+        },
+        {
+            text: "Contacto",
+            url: "#contacto"
         }
     ],
-    email: 'address@yoursite.com',
-    telephone: '+1 (123) 456-7890',
+    email: 'alvarogpp@kometa.tv',
+    telephone: '+34 649842031',
     socials: {
-        // github: 'https://github.com',
-        // x: 'https://twitter.com/x',
-        twitter: 'https://twitter.com/Twitter',
-        facebook: 'https://facebook.com',
-        // youtube: 'https://youtube.com',
-        linkedin: 'https://www.linkedin.com',
-        // threads: 'https://www.threads.net',
-        instagram: 'https://www.instagram.com',
+        
     }
 }

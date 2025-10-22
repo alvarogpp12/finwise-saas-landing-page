@@ -1,25 +1,36 @@
 import { IFAQ } from "@/types";
-import { siteDetails } from "./siteDetails";
 
 export const faqs: IFAQ[] = [
     {
-        question: `Is ${siteDetails.siteName} secure?`,
-        answer: 'Absolutely. We use bank-level encryption to protect your data and never store your login information. Plus, our biometric authentication adds an extra layer of security.',
+        question: '¿Qué tipo de producciones realiza KOMETA?',
+        answer: 'Documentales, reportajes, series, formatos televisivos y contenidos para plataformas digitales.',
     },
     {
-        question: `Can I use ${siteDetails.siteName} on multiple devices?`,
-        answer: 'Absolutely! Your Finwise account syncs seamlessly across all your devices - smartphone, tablet, and computer.',
+        question: '¿Con qué agencias colaboran?',
+        answer: 'Trabajamos con agencias de comunicación y marketing, brindando soporte técnico y creativo completo.',
     },
     {
-        question: 'Can I connect all my bank accounts?',
-        answer: `Yes! ${siteDetails.siteName} supports connections with over 10,000 financial institutions worldwide. Simply log in through our secure portal to link your accounts.`
+        question: '¿Ofrecen servicios personalizados?',
+        answer: 'Sí, cada proyecto se diseña a medida según la identidad y los objetivos de la marca.',
     },
     {
-        question: 'Do I need any financial expertise to use the investing features?',
-        answer: 'Not at all! Our expert-curated portfolios and educational resources make investing accessible to everyone, regardless of experience level.',
+        question: '¿Tienen equipamiento propio?',
+        answer: 'Sí, contamos con un parque técnico de última generación, incluyendo equipos 4K, drones y ópticas cinematográficas.',
     },
     {
-        question: 'What if I need help using the app?',
-        answer: 'Our dedicated support team is available 24/7 via chat or email. Plus, we offer extensive in-app tutorials and a comprehensive knowledge base to help you make the most of Finwise.'
-    }
+        question: '¿Incluyen correcciones durante el proceso?',
+        answer: 'Sí, ofrecemos seguimiento continuo y correcciones incluidas dentro de cada proyecto.',
+    },
+    {
+        question: '¿Pueden cubrir eventos en medios?',
+        answer: 'Sí, gracias a nuestra alianza con GTRES podemos amplificar eventos y marcas en medios convencionales.',
+    },
+    {
+        question: '¿Qué software utilizan para la postproducción?',
+        answer: 'DaVinci Resolve y herramientas profesionales de color y audio.',
+    },
+    {
+        question: '¿Dónde están ubicados?',
+        answer: 'En Madrid, con proyección nacional e internacional.',
+    },
 ];

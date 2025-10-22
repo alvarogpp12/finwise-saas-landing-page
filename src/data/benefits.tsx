@@ -1,70 +1,70 @@
-import { FiBarChart2, FiBriefcase, FiDollarSign, FiLock, FiPieChart, FiShield, FiTarget, FiTrendingUp, FiUser } from "react-icons/fi";
+import { FiAperture, FiCpu, FiFilm, FiLayers, FiSettings } from "react-icons/fi";
 
 import { IBenefit } from "@/types"
 
 export const benefits: IBenefit[] = [
     {
-        title: "Smart Budgeting",
-        description: "Take the guesswork out of managing your money. Our AI-powered budgeting tool adapts to your lifestyle and helps you stay on track.",
+        title: "Nuestro Enfoque — Innovación Continua",
+        description: "Apostamos por la vanguardia tecnológica y la emoción como motores de la experiencia audiovisual moderna.",
         bullets: [
             {
-                title: "Intelligent Categorization",
-                description: "Automatically sorts your transactions for crystal-clear insights.",
-                icon: <FiBarChart2 size={26} />
+                title: "Creatividad Técnica",
+                description: "Fusionamos creatividad, técnica avanzada y narrativa visual para crear producciones memorables que superan las expectativas.",
+                icon: <FiCpu size={26} />
             },
             {
-                title: "Customizable Goals",
-                description: "Set and track financial objectives that matter to you.",
-                icon: <FiTarget size={26} />
+                title: "Experiencias a Medida",
+                description: "Cada proyecto es único. Diseñamos soluciones personalizadas que reflejan la identidad y objetivos de marca.",
+                icon: <FiLayers size={26} />
             },
             {
-                title: "Predictive Analysis",
-                description: "Get ahead of your finances with spending forecasts and alerts.",
-                icon: <FiTrendingUp size={26} />
+                title: "Arte Audiovisual",
+                description: "Convertimos lo técnico en arte. Cada elemento visual y sonoro crea una experiencia cinematográfica inolvidable.",
+                icon: <FiAperture size={26} />
             }
         ],
         imageSrc: "/images/mockup-1.webp"
     },
     {
-        title: "Seamless Investing",
-        description: "Start building wealth today, no financial degree required. Finwise makes investing accessible and straightforward.",
+        title: "Tecnología y Equipamiento de Vanguardia — Equipamiento, Iluminación, Edición",
+        description: "Parque técnico propio 4K, drones profesionales, ópticas cinematográficas e islas con Mac Pro M4 y DaVinci Resolve.",
         bullets: [
             {
-                title: "Micro-Investing",
-                description: "Begin with as little as $1 and watch your money grow.",
-                icon: <FiDollarSign size={26} />
+                title: "Equipamiento",
+                description: "Máxima calidad y versatilidad para cualquier producción. Imágenes de alto impacto y fidelidad absoluta.",
+                icon: <FiSettings size={26} />
             },
             {
-                title: "Expert Portfolios",
-                description: "Choose from investment strategies tailored to your risk tolerance.",
-                icon: <FiBriefcase size={26} />
+                title: "Iluminación",
+                description: "Soluciones lumínicas precisas para plató, exteriores o entornos complejos con alto rendimiento.",
+                icon: <FiAperture size={26} />
             },
             {
-                title: "Real-Time Performance",
-                description: "Track your investments with easy-to-understand metrics and visuals.",
-                icon: <FiPieChart size={26} />
+                title: "Edición",
+                description: "Flujo ágil y preciso bajo estándares de plataforma, con DaVinci Resolve para control total de imagen y sonido.",
+                icon: <FiFilm size={26} />
             }
         ],
         imageSrc: "/images/mockup-2.webp"
     },
     {
-        title: "Bank-Grade Security",
-        description: "Your financial data deserves the best protection. Rest easy knowing Finwise employs cutting-edge security measures.",
+        title: "Beneficios — Equipo y Servicio",
+        description: "Equipo multidisciplinar, servicio total, visión cinematográfica, tecnología innovadora y personalización total.",
         bullets: [
             {
-                title: "Military-Grade Encryption",
-                description: "Your information is safeguarded with the highest level of encryption.",
-                icon: <FiLock size={26} />
+                title: "Equipo Multidisciplinar",
+                description: "Técnicos y creativos expertos en cada fase de la producción.",
+                icon: <FiLayers size={26} />
             },
             {
-                title: "Biometric Authentication",
-                description: "Access your account securely with fingerprint or facial recognition.",
-                icon: <FiUser size={26} />
+                title: "Servicio Total",
+                description: "De la idea a la entrega final con control y rapidez.",
+                icon: <FiSettings size={26} />
             },
             {
-                title: "Real-Time Fraud Detection",
-                description: "Our system constantly monitors for suspicious activity to keep your money safe.",
-                icon: <FiShield size={26} />
+                title: "Visión Cinematográfica",
+                description: "Narrativa y estética de alto nivel para experiencias memorables.",
+                icon: <FiAperture size={26} />
             }
         ],
         imageSrc: "/images/mockup-1.webp"

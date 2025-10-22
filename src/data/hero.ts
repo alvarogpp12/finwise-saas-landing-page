@@ -1,5 +1,5 @@
 export const heroDetails = {
-    heading: 'Smart, Secure, Simple Financial Management',
-    subheading: 'From effortless budgeting to real-time investment insights, Finwise puts you in control of your money like never before',
+    heading: 'Más de 20 años de experiencia audiovisual',
+    subheading: 'KOMETA es una productora con base en Madrid dedicada históricamente a la realización, producción y postproducción de contenidos audiovisuales de alto nivel: documentales, reportajes, series y formatos para televisión y plataformas digitales. Ahora ampliamos nuestra propuesta creando una línea exclusiva de soporte técnico y creativo para agencias de comunicación y marketing, convirtiéndonos en el partner que brinda producciones integradas, ágiles y con infraestructura propia, para que la agencia mantenga su esencia, mientras ofrece a su cliente final una experiencia visual profesional y de impacto.\nDurante décadas hemos afinado nuestros procesos internos, nuestro equipo técnico y creativo, y hoy ponemos todo ese conocimiento al servicio de tu agencia, garantizando calidad, rapidez y control, porque para nosotros cada proyecto no sólo es una producción, sino una oportunidad para que tu cliente perciba la excelencia audiovisual.',
     centerImageSrc: '/images/hero-mockup.webp',
 }
